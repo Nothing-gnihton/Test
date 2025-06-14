@@ -2,21 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Blank Page</title>
+    <title>My First Website</title>
     <style>
-        /* Empty CSS */
         body {
-            /* no styles applied */
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
 
-    <!-- Empty body -->
+    <h1>Hello, World!</h1>
+    <p>This is your first live website on GitHub Pages.</p>
+    <button onclick="sayHi()">Click Me</button>
 
     <script>
-        // Empty JavaScript
-        // Nothing happens here
+        function sayHi() {
+            alert("Hi there! Your website is working! 🎉");
+        }
     </script>
+
 </body>
 </html>
